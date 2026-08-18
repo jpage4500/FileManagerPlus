@@ -89,11 +89,13 @@ I've been a developer for 20+ years. I am passionate about the products I work o
 
 <div align="center">
 
-| Icon view with thumbnails | Quick preview |
-|---|---|
-| <img src="resources/screenshot-icons.png" width="420" alt="Icon view"> | <img src="resources/screenshot-preview.png" width="420" alt="Quick preview"> |
-| **Get Info** | **Connect to Server** |
-| <img src="resources/screenshot-info.png" width="420" alt="Get Info panel"> | <img src="resources/screenshot-connect.png" width="420" alt="Connect to Server dialog"> |
+| Icon view with thumbnails                                                     | Quick preview                                                                            |
+|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| <img src="resources/screenshot-icons.png" width="420" alt="Icon view">        | <img src="resources/screenshot-preview.png" width="420" alt="Quick preview">             |
+| **Connected Android Devices**                                                 | **Activity**                                                                             |
+| <img src="resources/screenshot-devices.png" width="420" alt="Connected Android Devices"> | <img src="resources/screenshot-activity.png" width="420" alt="Activity"> |
+| **Get Info**                                                                  |                                                                     |
+| <img src="resources/screenshot-info.png" width="420" alt="Get Info panel">    |   |
 
 </div>
 
