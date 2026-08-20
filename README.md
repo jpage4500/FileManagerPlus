@@ -30,58 +30,55 @@ I've been a developer for 20+ years. I am passionate about the products I work o
 
 ---
 
-## Features
+## Standard Features
 
-### 🗂 Browse
-
-| | |
-|---|---|
-| **Tabs** | Open as many as you like (⌘T), reorder them by dragging, jump with ⌘1–9, and pick up where you left off after a restart |
-| **Expand in place** | Click a folder's chevron to unfold it inside the list — compare two subfolders without losing your place |
-| **Sort & resize** | Sort by Name, Size or Date Modified; folders stay on top, numbers sort naturally (`file2` before `file10`) |
-| **Icon view** | Real thumbnails for images and PDFs, with a zoom slider |
-| **Filter as you type** | ⌘F narrows the current folder instantly |
-| **Type to select** | Start typing a name in the list and it jumps there |
-| **Go to Folder** | ⇧⌘G — type a path, Tab completes it, matching subfolders are listed as you go |
-| **Hidden files** | ⇧⌘. toggles them |
-
-### ✏️ Manage
+Every file manager copies, renames and deletes files. Most of them have these standard features too but here they are anyway:
 
 | | |
-|---|---|
-| **The usual operations** | New folder, new file, rename in place (F2), copy / cut / paste, duplicate, move to trash, delete |
-| **Progress you can cancel** | Long copies and moves report in the status bar and stop cleanly, removing whatever they had half-written |
-| **Conflict handling** | Replace / Keep Both / Skip / Stop, with "apply to all" and both files shown side by side so you can tell them apart |
-| **Drag and drop** | Onto a folder, onto another tab, into the sidebar, or out to any other app. Move is the default — hold ⌥ to copy, and the ghost tells you which |
-| **Get Info** | ⌘I — size, kind, dates, a permissions grid you can edit (checkboxes or the octal field), owner and group, and the macOS lock flag |
-| **Open With** | Right-click for every app that can open the file, "Other…" for anything else on the machine, and Change All to set the default for that file type |
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Tabs**                       | ⌘T, reorder by dragging, ⌘1–9 to jump, and they come back after a restart                                                                                 |
+| **Expand in place**            | Unfold a folder inside the list to compare two subfolders without losing your place                                                                       |
+| **Icon view**                  | Real thumbnails for images and PDFs, with a zoom slider                                                                                                   |
+| **Favorites**                  | Drag folders in from the list or the breadcrumb, drop them between rows, rename in place, group them into collapsible sections                            |
+| **Locations**                  | Home, drives, shares, iCloud Drive, Google Drive, the network and the Trash — updating live as drives come and go, each with an eject button              |
+| **Get Info**                   | ⌘I — size, kind, dates, an editable permissions grid (checkboxes or octal), owner, group, and the macOS lock flag                                         |
+| **Open With**                  | Every app that can open the file, "Other…" for anything else on the machine, and Change All to set the default for that type                              |
+| **Conflicts**                  | Replace / Keep Both / Skip / Stop with "apply to all", both files shown side by side, and every question asked before anything is written                 |
+| **Go to Folder**               | ⇧⌘G — type a path, Tab completes it, matching subfolders listed as you go                                                                                 |
+| **Filter, sort, hidden files** | ⌘F narrows the folder ("114 of 290 items"), sorting keeps folders on top and sorts numbers naturally (`file2` before `file10`), ⇧⌘. shows the hidden ones |
 
-### 👁 Preview
+## Advanced Features
 
-| | |
-|---|---|
-| **Press Space** | Images, PDFs and text/code, in a window of its own |
-| **Select and copy** | Text in the preview is real text — select it, copy it |
-| **Arrow through** | ← / → step to the next file in the folder without closing the preview |
+Not every File Manager I've tested has these features - they're what I consider essential to a polished / full-featured File Manager.
 
-### 🌐 Connect
+|                          |                                                                                                                               |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| **Go to Folder**         | ⇧⌘G — type a path, Tab auto-completes it, matching subfolders listed as you go                                                |
+| **Preview**              | Space for images, PDFs and text; the text is real text you can select and copy, and ← / → step through the folder             |
+| **Per-folder views**     | Pin a view and its icon size to one folder — Photos can open as icons while everything else stays a list                      |
+| **Live Refresh**         | Files added, renamed or deleted by another app show up automatically                                                          |
+| **Open in Terminal**     | ⌥⌘T opens the current folder in your terminal of choice                                                                       |
+| **Copy Path**            | ⌥⌘C copies the current folder or file path to the clipboard                                                                   |
+| **Undo**                 | ⌘Z undoes the last destructive action (ie: move/delete)                                                                       |
+| **Real image icons**     | Shows the real icons for images and PDFs, rather than generic document icons                                                  |
+| **Default app icons**    | Shows the associated app which opens the file as it's icon. Quickly tell that your .txt file opens in Sublime Text            |
+| **Connect to Server**    | ⌘K — SMB, AFP, NFS and WebDAV. The OS does the mounting, so a share behaves exactly like a local folder everywhere in the app |
+| **Reconnect in a click** | Save a server to Favorites; clicking it mounts the share again                                                                |
+| **Share picker**         | Type just a server name and pick from the shares it offers                                                                    |
+| **Themes**               | Offers many pre-built themes to customize all parts of the app                                                                |
+| **Custom Theme Support** | Don't like a pre-build theme? Define your own!                                                                                |
+| **Customize Keyboard**   | Customize almost every keyboard shortcut                                                                                                       |
 
-| | |
-|---|---|
-| **Connect to Server** | ⌘K — SMB, AFP, NFS and WebDAV |
-| **Share picker** | Type just a server name and pick from the shares it offers |
-| **Keychain** | Passwords go to your system's own secret store, never into the app's settings |
-| **Reconnect in a click** | Save a server to Favorites; clicking it mounts the share again |
-| **Locations** | Home, mounted drives, shares, iCloud Drive, Google Drive and other cloud folders, the network and the Trash — updating live as drives come and go, with an eject button on each row |
+## Developer Features
 
-### ⭐️ Make it yours
+You don't have to be a developer to use these - but as a developer these are the features I wanted specifically. Most File Managers I've used don't have these features
 
-| | |
-|---|---|
-| **Favorites** | Drag folders in from the list or the breadcrumb, rename them in place, and organize them into collapsible groups |
-| **Per-folder views** | Pin a view (and its icon size) to a specific folder — your Photos folder can open as icons while everything else stays a list |
-| **Sidebar** | Resize it, or hide it entirely with ⌥⌘S |
-| **Terminal** | ⌥⌘T opens the current folder in your terminal of choice |
+|                            |                                                                                                                                           |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| **Browse Android Devices** | Connect an Android phone and it shows up in the sidebar. Browse/Manage/Preview files. View device battery level                           |
+| **Install an app**         | Drag an `.apk` (or `.xapk, .apkm, .apks`) to the device and it installs                                                                   |
+| **Browse archives**        | Double-click a `.zip` — or supported archive format — and its contents *are* browsable like any other folder |
+| **Activity / History**     | View a record of all file operations, including copy, move, delete, install, extract and undo |
 
 ---
 
@@ -94,22 +91,54 @@ I've been a developer for 20+ years. I am passionate about the products I work o
 | <img src="resources/screenshot-icons.png" width="420" alt="Icon view">        | <img src="resources/screenshot-preview.png" width="420" alt="Quick preview">             |
 | **Connected Android Devices**                                                 | **Activity**                                                                             |
 | <img src="resources/screenshot-devices.png" width="420" alt="Connected Android Devices"> | <img src="resources/screenshot-activity.png" width="420" alt="Activity"> |
-| **Get Info**                                                                  |                                                                     |
-| <img src="resources/screenshot-info.png" width="420" alt="Get Info panel">    |   |
+| **Get Info**                                                                  | **Connect to Server**                                                                    |
+| <img src="resources/screenshot-info.png" width="420" alt="Get Info panel">    | <img src="resources/screenshot-connect.png" width="420" alt="Connect to Server dialog"> |
 
 </div>
 
 ---
 
+## Pricing
+
+**$14.95 once — and every future update is included.** No subscription, no renewal.
+
+Try it free for **14 days**, all features, no payment details needed. After that it keeps working as
+a file browser, and a license unlocks changing files again (copy, move, rename, delete, install).
+
+[**Buy a license — $14.95**](https://buy.polar.sh/665a5f1b-4949-4190-b340-758627449a85)
+
+One license covers **3 computers** you own. Your key arrives by email and goes into
+**Settings ▸ About ▸ License**. Sold by Joe Page Software; payment is handled by
+[Polar](https://polar.sh) as merchant of record. Refunds within 30 days, no reason needed — see
+**[Store Policies](POLICIES.md)**.
+
+---
+
 ## Install
 
-Grab the build for your platform from the
-**[latest release](https://github.com/jpage4500/FileManagerPlus/releases/latest)**. Everything the app
-needs is bundled — there's no Java to install first — and it updates itself when a new version
-ships.
+Install it from a terminal in one line, or grab the build for your platform from the
+**[latest release](https://github.com/jpage4500/FileManagerPlus/releases/latest)**. Either way the
+app auto-updates itself when a new version comes out.
+
+**macOS and Linux**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/jpage4500/FileManagerPlus/main/scripts/public/install.sh | bash
+```
+
+**Windows** — in PowerShell
+
+```powershell
+irm https://raw.githubusercontent.com/jpage4500/FileManagerPlus/main/scripts/public/install.ps1 | iex
+```
+
+[`install.sh`](scripts/public/install.sh) and [`install.ps1`](scripts/public/install.ps1) do the same thing: pick
+the build matching your OS and processor out of the latest release, download it, and run the
+installer. Read either one before you pipe it to a shell — that's what the links are for. Pass
+`--version 1.0.43` for one particular release, or `--dry-run` to download without installing.
 
 <details>
-<summary><b>macOS</b></summary>
+<summary><b>macOS — manual</b></summary>
 
 Download the macOS build for your chip (Apple Silicon or Intel), open it, and drag **File Manager+**
 to Applications.
@@ -120,7 +149,7 @@ confirm. macOS remembers the choice and normal double-clicks work from then on.
 </details>
 
 <details>
-<summary><b>Windows</b></summary>
+<summary><b>Windows — manual</b></summary>
 
 Download the Windows build and run it. SmartScreen may warn about an unrecognized publisher — choose
 **More info → Run anyway**.
@@ -128,7 +157,7 @@ Download the Windows build and run it. SmartScreen may warn about an unrecognize
 </details>
 
 <details>
-<summary><b>Linux</b></summary>
+<summary><b>Linux — manual</b></summary>
 
 Download the Linux build for your architecture (x64 or arm64) and run the launcher. Depending on
 your distribution you may need to mark it executable first:
@@ -136,6 +165,34 @@ your distribution you may need to mark it executable first:
 ```bash
 chmod +x <downloaded-file>
 ```
+
+</details>
+
+
+<details>
+<summary><b>Corporate network — "app.xml file could not be found"</b></summary>
+
+On a network that inspects TLS (Netskope, Zscaler, Palo Alto, a corporate VPN) the installer stops
+with:
+
+```
+Cannot load app info because the app.xml file could not be found
+```
+
+Nothing is missing — it's certificates. The installer runs on a private JRE under `~/.jdeploy` with
+its own truststore, which doesn't hold your company's root CA, so its HTTPS call to `jdeploy.com`
+fails. macOS itself trusts that root, which is why your browser and `curl` are fine.
+
+On macOS, [`scripts/public/install-corporate.sh`](scripts/public/install-corporate.sh) downloads the latest
+release, installs it, and fixes the certificates in one command:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/jpage4500/FileManagerPlus/main/scripts/public/install-corporate.sh | bash
+```
+
+It only imports a root macOS already trusts, and does nothing at all if it finds no interception.
+Once installed, the app auto-updates on launch as usual. If a later update pulls down a newer JRE
+and update checks start warning again, re-run it with `--fix-only`.
 
 </details>
 
@@ -159,16 +216,30 @@ Shortcuts use ⌘ on macOS and **Ctrl** on Windows/Linux.
 | **Connect to Server…** | ⌘K | **New Folder** | ⇧⌘N |
 | **Quick preview** | Space | **Get Info** | ⌘I |
 | **Filter** | ⌘F | **Reveal in Finder** | ⇧⌘R |
-| **Views (icons/list/columns/gallery)** | ⌥1 – ⌥4 | **Open in Terminal** | ⌥⌘T |
+| **View as Icons / as List** | ⌥1 / ⌥2 | **Open in Terminal** | ⌥⌘T |
 | **Show/Hide Sidebar** | ⌥⌘S | **Show/Hide Hidden Files** | ⇧⌘. |
-| **Refresh** | ⌘R | **Settings** | ⌘, |
+| **Refresh** | ⌘R | **Copy Path** | ⌥⌘C |
+| **Settings** | ⌘, | **Quit** | ⌘Q |
+
+---
+
+## Support
+
+Found a bug, or want something added? Open an issue —
+**[github.com/jpage4500/FileManagerPlus/issues](https://github.com/jpage4500/FileManagerPlus/issues)**.
+You can also send a report from inside the app (**Settings ▸ About ▸ Support / Feedback**), which
+attaches the log so a problem can be traced without a back-and-forth.
+
+For licensing, billing or a refund, email
+**[joe.page.software@gmail.com](mailto:joe.page.software@gmail.com)** — the terms are in
+**[Store Policies](POLICIES.md)**.
 
 ---
 
 ## Roadmap
 
-- **Column and Gallery views** — the buttons exist, the views don't
-- **Undo** for move, rename and trash
+- **Column and Gallery views**
+- **Undo for rename** — move and Move to Trash already offer one
 - **Recursive search** — the filter matches the current folder only
 - **Dark mode**
 
