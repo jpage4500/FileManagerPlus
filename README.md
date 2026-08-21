@@ -24,9 +24,13 @@
 
 There's **plenty** of file managers out there, including one built into your OS (macOS Finder, Windows File Explorer). I've tried several and the best one were either pricey or required a subscription model which adds up and is hard to justify. The free/open source ones never really worked the way I wanted them to - many times they have an outdated UI or have just been around for so long they've gotten overly complex to use.
 
-I wanted a File Manager that I will actually use every day. So, it needs to be FAST, keyboard friendly and have a modern UI. I'm also a developer so there's several developer friendly features that I wanted. But, they shouldn't get in the way for non-developers or slow down the app.
+I wanted a File Manager that I will actually use every day. It needs to be **FAST**, **keyboard friendly** and have a **modern UI**. I'm also a developer so there's several developer friendly features that I wanted. But, they shouldn't get in the way for non-developers or slow down the app.
 
-I've been a developer for 20+ years. I am passionate about the products I work on and work to make them the best in class any way that I can. AI has undoubtedly changed the programming landscape forever and I'm embracing it head-on. I know what I want in an app and AI allows me to get there 1000 times faster than doing it myself. While anyone can write an app today, I know what features should look like - how to keep the code from getting unmanageable and generally won't release any AI SLOP. Software can work differently for different people so maintaining it is critical for making it last.
+---
+
+## About Me
+
+I've been a developer for 20+ years. I am passionate about the products I work on and work to make them the best in class any way that I can. AI has undoubtedly changed the programming landscape forever, and I'm embracing it head-on. I know what I want in an app and AI allows me to get there 1000 times faster than doing it myself. While that also means anyone can create an app from scratch today, I know what features should look like, how to provide excellent support, and how to keep the code from getting unmanageable. I will NEVER release any AI SLOP. Software can work differently for different people so maintaining it is critical for making it last.
 
 ---
 
@@ -34,7 +38,7 @@ I've been a developer for 20+ years. I am passionate about the products I work o
 
 Every file manager copies, renames and deletes files. Most of them have these standard features too but here they are anyway:
 
-| | |
+|                                |                                                                                                                                                           |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tabs**                       | ⌘T, reorder by dragging, ⌘1–9 to jump, and they come back after a restart                                                                                 |
 | **Expand in place**            | Unfold a folder inside the list to compare two subfolders without losing your place                                                                       |
@@ -49,36 +53,37 @@ Every file manager copies, renames and deletes files. Most of them have these st
 
 ## Advanced Features
 
-Not every File Manager I've tested has these features - they're what I consider essential to a polished / full-featured File Manager.
+Not every File Manager I've tested has these features - but they're what I consider **essential** to a polished / full-featured File Manager.
 
 |                          |                                                                                                                               |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | **Go to Folder**         | ⇧⌘G — type a path, Tab auto-completes it, matching subfolders listed as you go                                                |
+| **Quick Open**           | Quickly open any favorite folder, device or run any application with a keystroke (⌘/)                                         |
 | **Preview**              | Space for images, PDFs and text; the text is real text you can select and copy, and ← / → step through the folder             |
 | **Per-folder views**     | Pin a view and its icon size to one folder — Photos can open as icons while everything else stays a list                      |
 | **Live Refresh**         | Files added, renamed or deleted by another app show up automatically                                                          |
 | **Open in Terminal**     | ⌥⌘T opens the current folder in your terminal of choice                                                                       |
 | **Copy Path**            | ⌥⌘C copies the current folder or file path to the clipboard                                                                   |
-| **Undo**                 | ⌘Z undoes the last destructive action (ie: move/delete)                                                                       |
-| **Real image icons**     | Shows the real icons for images and PDFs, rather than generic document icons                                                  |
+| **Undo**                 | ⌘Z undoes the last action (ie: move/delete/rename)                                                                            |
+| **Real image icons**     | Shows the **real icons** for images and PDFs, rather than generic document icons                                              |
 | **Default app icons**    | Shows the associated app which opens the file as it's icon. Quickly tell that your .txt file opens in Sublime Text            |
 | **Connect to Server**    | ⌘K — SMB, AFP, NFS and WebDAV. The OS does the mounting, so a share behaves exactly like a local folder everywhere in the app |
 | **Reconnect in a click** | Save a server to Favorites; clicking it mounts the share again                                                                |
 | **Share picker**         | Type just a server name and pick from the shares it offers                                                                    |
 | **Themes**               | Offers many pre-built themes to customize all parts of the app                                                                |
 | **Custom Theme Support** | Don't like a pre-build theme? Define your own!                                                                                |
-| **Customize Keyboard**   | Customize almost every keyboard shortcut                                                                                                       |
+| **Customize Keyboard**   | Customize almost every keyboard shortcut                                                                                      |
 
 ## Developer Features
 
 You don't have to be a developer to use these - but as a developer these are the features I wanted specifically. Most File Managers I've used don't have these features
 
-|                            |                                                                                                                                           |
-|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| **Browse Android Devices** | Connect an Android phone and it shows up in the sidebar. Browse/Manage/Preview files. View device battery level                           |
-| **Install an app**         | Drag an `.apk` (or `.xapk, .apkm, .apks`) to the device and it installs                                                                   |
-| **Browse archives**        | Double-click a `.zip` — or supported archive format — and its contents *are* browsable like any other folder |
-| **Activity / History**     | View a record of all file operations, including copy, move, delete, install, extract and undo |
+|                            |                                                                                                                 |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------|
+| **Browse Android Devices** | Connect an Android phone and it shows up in the sidebar. Browse/Manage/Preview files. View device battery level |
+| **Install an app**         | Drag an `.apk` (or `.xapk, .apkm, .apks`) to the device and it installs                                         |
+| **Browse archives**        | Double-click a `.zip` — or supported archive format — and its contents *are* browsable like any other folder    |
+| **Activity / History**     | View a record of all file operations, including copy, move, delete, install, extract and undo                   |
 
 ---
 
@@ -86,13 +91,13 @@ You don't have to be a developer to use these - but as a developer these are the
 
 <div align="center">
 
-| Icon view with thumbnails                                                     | Quick preview                                                                            |
-|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| <img src="resources/screenshot-icons.png" width="420" alt="Icon view">        | <img src="resources/screenshot-preview.png" width="420" alt="Quick preview">             |
-| **Connected Android Devices**                                                 | **Activity**                                                                             |
-| <img src="resources/screenshot-devices.png" width="420" alt="Connected Android Devices"> | <img src="resources/screenshot-activity.png" width="420" alt="Activity"> |
-| **Get Info**                                                                  | **Connect to Server**                                                                    |
-| <img src="resources/screenshot-info.png" width="420" alt="Get Info panel">    | <img src="resources/screenshot-connect.png" width="420" alt="Connect to Server dialog"> |
+| Icon view with thumbnails                                                                | Quick preview                                                                           |
+|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| <img src="resources/screenshot-icons.png" width="420" alt="Icon view">                   | <img src="resources/screenshot-preview.png" width="420" alt="Quick preview">            |
+| **Connected Android Devices**                                                            | **Activity**                                                                            |
+| <img src="resources/screenshot-devices.png" width="420" alt="Connected Android Devices"> | <img src="resources/screenshot-activity.png" width="420" alt="Activity">                |
+| **Get Info**                                                                             | **Connect to Server**                                                                   |
+| <img src="resources/screenshot-info.png" width="420" alt="Get Info panel">               | <img src="resources/screenshot-connect.png" width="420" alt="Connect to Server dialog"> |
 
 </div>
 
@@ -105,7 +110,7 @@ You don't have to be a developer to use these - but as a developer these are the
 Try it free for **14 days**, all features, no payment details needed. After that it keeps working as
 a file browser, and a license unlocks changing files again (copy, move, rename, delete, install).
 
-[**Buy a license — $14.95**](https://buy.polar.sh/665a5f1b-4949-4190-b340-758627449a85)
+[**Buy a license — $14.95**](https://buy.polar.sh/polar_cl_FVmqDr8khgY1sATlhLRGVjOLIQZEP3K6dUpIU1AtPIk)
 
 One license covers **3 computers** you own. Your key arrives by email and goes into
 **Settings ▸ About ▸ License**. Sold by Joe Page Software; payment is handled by
@@ -203,43 +208,17 @@ that folder to reset the app to a clean slate.
 
 ## Keyboard shortcuts
 
-Shortcuts use ⌘ on macOS and **Ctrl** on Windows/Linux.
+Shortcuts use ⌘ on macOS and **Ctrl** on Windows/Linux, and every one of them can be changed in
+Settings ▸ Keyboard.
 
-| | | | |
-|---|---|---|---|
-| **New Tab** | ⌘T | **Copy / Cut / Paste** | ⌘C / ⌘X / ⌘V |
-| **Close Tab** | ⌘W | **Select All** | ⌘A |
-| **Switch Tab** | ⌘1–9 | **Rename** | F2 |
-| **Back / Forward** | ⌘[ / ⌘] | **Duplicate** | ⌘D |
-| **Enclosing Folder** | ⌘↑ | **Move to Trash** | ⌘⌫ |
-| **Go to Folder…** | ⇧⌘G | **Delete Immediately** | ⌥⌘⌫ |
-| **Connect to Server…** | ⌘K | **New Folder** | ⇧⌘N |
-| **Quick preview** | Space | **Get Info** | ⌘I |
-| **Filter** | ⌘F | **Reveal in Finder** | ⇧⌘R |
-| **View as Icons / as List** | ⌥1 / ⌥2 | **Open in Terminal** | ⌥⌘T |
-| **Show/Hide Sidebar** | ⌥⌘S | **Show/Hide Hidden Files** | ⇧⌘. |
-| **Refresh** | ⌘R | **Copy Path** | ⌥⌘C |
-| **Settings** | ⌘, | **Quit** | ⌘Q |
+**→ [The full list](docs/public/KEYBOARD_SHORTCUTS.md)** — every action, grouped by menu.
 
 ---
 
 ## Support
 
-Found a bug, or want something added? Open an issue —
-**[github.com/jpage4500/FileManagerPlus/issues](https://github.com/jpage4500/FileManagerPlus/issues)**.
-You can also send a report from inside the app (**Settings ▸ About ▸ Support / Feedback**), which
-attaches the log so a problem can be traced without a back-and-forth.
+Found a bug, or want something added?
 
-For licensing, billing or a refund, email
-**[joe.page.software@gmail.com](mailto:joe.page.software@gmail.com)** — the terms are in
-**[Store Policies](POLICIES.md)**.
+Send feedback from the app (**Settings ▸ About ▸ Support / Feedback**)
 
----
-
-## Roadmap
-
-- **Column and Gallery views**
-- **Undo for rename** — move and Move to Trash already offer one
-- **Recursive search** — the filter matches the current folder only
-- **Dark mode**
-
+I try to be very responsive to support or bug requests - if it's something that's feasible and makes sense to add, I'll do it
