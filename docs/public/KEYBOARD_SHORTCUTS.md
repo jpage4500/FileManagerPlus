@@ -56,6 +56,7 @@ none — there is nothing to put back.*
 | Smaller Text | ⌘- |
 | Actual Size | ⌘0 |
 | Show/Hide Sidebar | ⌥⌘S |
+| Show/Hide Preview | ⇧⌘P |
 | Show/Hide Hidden Files | ⇧⌘. |
 | Refresh | ⌘R |
 
@@ -109,4 +110,5 @@ with it. They're listed under **Open With** in Settings ▸ Keyboard, and none i
 ## Escape
 
 Escape isn't bindable, because it means the same thing everywhere: back out. It cancels a dialog, a
-rename, an open preview, and then the selection.
+rename, an open preview, the mini player a Cast device opens, a search you have typed, and then the
+selection.
