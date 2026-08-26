@@ -50,6 +50,7 @@ Every file manager copies, renames and deletes files. Most of them have these st
 | **Conflicts**                  | Replace / Keep Both / Skip / Stop with "apply to all", both files shown side by side, and every question asked before anything is written                 |
 | **Go to Folder**               | ⇧⌘G — type a path, Tab completes it, matching subfolders listed as you go                                                                                 |
 | **Filter, sort, hidden files** | ⌘F narrows the folder ("114 of 290 items"), sorting keeps folders on top and sorts numbers naturally (`file2` before `file10`), ⇧⌘. shows the hidden ones |
+| **Breadcrumb bar**             | Navigate quickly through the folder hierarchy by clicking on the folder names                                                                              |
 
 ## Advanced Features
 
@@ -60,6 +61,7 @@ Not every File Manager I've tested has these features - but they're what I consi
 | **Go to Folder**         | ⇧⌘G — type a path, Tab auto-completes it, matching subfolders listed as you go                                                |
 | **Quick Open**           | Quickly open any favorite folder, device or run any application with a keystroke (⌘/)                                         |
 | **Preview**              | Space for images, PDFs and text; the text is real text you can select and copy, and ← / → step through the folder             |
+| **Gallery view**         | View images and PDFs in a scrollable gallery format                                                                           |
 | **Per-folder views**     | Pin a view and its icon size to one folder — Photos can open as icons while everything else stays a list                      |
 | **Live Refresh**         | Files added, renamed or deleted by another app show up automatically                                                          |
 | **Open in Terminal**     | ⌥⌘T opens the current folder in your terminal of choice                                                                       |
@@ -68,38 +70,41 @@ Not every File Manager I've tested has these features - but they're what I consi
 | **Real image icons**     | Shows the **real icons** for images and PDFs, rather than generic document icons                                              |
 | **Default app icons**    | Shows the associated app which opens the file as it's icon. Quickly tell that your .txt file opens in Sublime Text            |
 | **Connect to Server**    | ⌘K — SMB, AFP, NFS and WebDAV. The OS does the mounting, so a share behaves exactly like a local folder everywhere in the app |
+| **Reconnect Server**     | Add an SMB folder to favorites and if MacOS disconnected it, the app will re-mount                                            |
 | **Reconnect in a click** | Save a server to Favorites; clicking it mounts the share again                                                                |
 | **Share picker**         | Type just a server name and pick from the shares it offers                                                                    |
 | **Themes**               | Offers many pre-built themes to customize all parts of the app                                                                |
 | **Custom Theme Support** | Don't like a pre-build theme? Define your own!                                                                                |
 | **Customize Keyboard**   | Customize almost every keyboard shortcut                                                                                      |
+| **Batch Rename**         | Rename multiple files easily with using several options including regular expressions                                         |
 
 ## Developer Features
 
 You don't have to be a developer to use these - but as a developer these are the features I wanted specifically. Most File Managers I've used don't have these features
 
-|                            |                                                                                                                 |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------|
-| **Browse Android Devices** | Connect an Android phone and it shows up in the sidebar. Browse/Manage/Preview files. View device battery level |
-| **Install an app**         | Drag an `.apk` (or `.xapk, .apkm, .apks`) to the device and it installs                                         |
-| **Browse archives**        | Double-click a `.zip` — or supported archive format — and its contents *are* browsable like any other folder    |
-| **Activity / History**     | View a record of all file operations, including copy, move, delete, install, extract and undo                   |
+|                              |                                                                                                                 |
+|------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| Browse **Android Devices**   | Connect an Android phone and it shows up in the sidebar. Browse/Manage/Preview files. View device battery level |
+| **Install an app**           | Drag an `.apk` (or `.xapk, .apkm, .apks`) to the device and it installs                                         |
+| **Browse archives**          | Double-click a `.zip` — or supported archive format — and its contents *are* browsable like any other folder    |
+| **Activity / History**       | View a record of all file operations, including copy, move, delete, install, extract and undo                   |
+| Control **Cast Devices**     | View any Cast enabled devices on your network - see what's playing and control playback/volume                  |
+| **Git Project Icons** | Show app icons for Git projects (logo.png)                                                                      |
 
 ---
 
 ## Screenshots
 
-<div align="center">
-
-| Icon view with thumbnails                                                                | Quick preview                                                                           |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| <img src="resources/screenshot-icons.png" width="420" alt="Icon view">                   | <img src="resources/screenshot-preview.png" width="420" alt="Quick preview">            |
-| **Connected Android Devices**                                                            | **Activity**                                                                            |
-| <img src="resources/screenshot-devices.png" width="420" alt="Connected Android Devices"> | <img src="resources/screenshot-activity.png" width="420" alt="Activity">                |
-| **Get Info**                                                                             | **Connect to Server**                                                                   |
-| <img src="resources/screenshot-info.png" width="420" alt="Get Info panel">               | <img src="resources/screenshot-connect.png" width="420" alt="Connect to Server dialog"> |
-
-</div>
+|                                                        |                                                   |
+|--------------------------------------------------------|---------------------------------------------------|
+| **Icon View**                                          | **Gallery View**                                  |
+| ![Icon View](resources/screenshot-icons.png)           | ![Gallery View](resources/screenshot-gallery.png) |
+| **Android Devices**                                    | **Cast Devices**                                  |
+| ![Android Devices](resources/screenshot-devices.png)   | ![Cast Devices](resources/screenshot-cast.png)    |
+| **Applications**                                       | **Preview**                                       |
+| ![Applications](resources/screenshot-applications.png) | ![Preview](resources/screenshot-preview.png)      |
+| **Info**                                               | **Quick View**                                    |
+| ![Quick View](resources/screenshot-info.png)           | ![Quick View](resources/screenshot-quickview.png)    |
 
 ---
 

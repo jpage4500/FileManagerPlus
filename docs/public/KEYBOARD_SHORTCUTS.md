@@ -38,13 +38,17 @@ Shortcuts are written for macOS. On Windows and Linux, **⌘ is Ctrl**; ⌥ is A
 | Paste | ⌘V |
 | Copy Path | ⌥⌘C |
 | Select All | ⌘A |
-| Rename | F2 |
+| Rename | ⌘R |
 | Duplicate | ⌘D |
 | Move to Trash | ⌘⌫ |
 | Delete Immediately… | ⌥⌘⌫ |
 
-*Undo puts back the last move or Move to Trash, all of it or none of it. A permanent delete offers
-none — there is nothing to put back.*
+*Rename edits one selected file in place; with two or more selected it opens the batch rename panel,
+where stacked actions — find and replace, a numbering sequence, added text, case changes — are
+previewed against every name before anything is written.*
+
+*Undo puts back the last move, batch rename or Move to Trash, all of it or none of it. A permanent
+delete offers none — there is nothing to put back.*
 
 ## View
 
@@ -52,13 +56,22 @@ none — there is nothing to put back.*
 |---|---|
 | as Icons | ⌥1 |
 | as List | ⌥2 |
+| as Gallery | ⌥4 |
+| Sort by Name | *unassigned* |
+| Sort by Size | *unassigned* |
+| Sort by Type | *unassigned* |
+| Sort by Date Modified | *unassigned* |
+| Sort by Date Created | *unassigned* |
+| Breadcrumb Bar at Top | *unassigned* |
+| Breadcrumb Bar at Bottom | *unassigned* |
+| Hide Breadcrumb Bar | *unassigned* |
 | Bigger Text | ⌘+ |
 | Smaller Text | ⌘- |
 | Actual Size | ⌘0 |
 | Show/Hide Sidebar | ⌥⌘S |
 | Show/Hide Preview | ⇧⌘P |
 | Show/Hide Hidden Files | ⇧⌘. |
-| Refresh | ⌘R |
+| Refresh | F5 |
 
 *⌘+ is Shift and = on most layouts, which is why Settings ▸ Keyboard writes it as ⇧⌘= — the
 same keys. ⌘= on its own and the numeric keypad's + work too.*
@@ -80,7 +93,7 @@ under. It lists nothing until you type.*
 
 ## File list
 
-These belong to the file list and the icon grid while one of them has focus.
+These belong to the file list, the icon grid and the gallery filmstrip while one of them has focus.
 
 | Action | Shortcut |
 |---|---|
@@ -97,8 +110,12 @@ These belong to the file list and the icon grid while one of them has focus.
 | Find | ⌘F |
 
 *Hold ⇧ with any of the six movement keys to extend the selection instead of replacing it. In icon
-view, where there is no outline to disclose, ← and → step one tile sideways. Home and End work
-wherever a keyboard has them.*
+view, where there is no outline to disclose, ← and → step one tile sideways and ⇧← / ⇧→ extend
+the selection along the row. Home and End work wherever a keyboard has them.*
+
+*In gallery view the filmstrip runs sideways, so the sideways keys do what the vertical ones do
+elsewhere: ← and → step one, **⇧← and ⇧→ extend the selection**, and **⌥← and ⌥→ jump to the first
+and last item** — as ⌥↑ and ⌥↓ do. ↑ and ↓ step one as well, there being no second axis.*
 
 *Type any letter to jump to the next item starting with it.*
 
@@ -106,6 +123,11 @@ wherever a keyboard has them.*
 
 Any application on this machine can be given a shortcut of its own, which opens the selected files
 with it. They're listed under **Open With** in Settings ▸ Keyboard, and none is assigned by default.
+
+## The mini player
+
+While a Cast device or a Sonos speaker is showing, **↑** and **↓** turn its volume up and down, one
+percent per press. Like Escape, they aren't bindable: they mean this only while the player is up.
 
 ## Escape
 
