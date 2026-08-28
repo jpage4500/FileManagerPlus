@@ -9,10 +9,10 @@ Shortcuts are written for macOS. On Windows and Linux, **⌘ is Ctrl**; ⌥ is A
 
 | Action | Shortcut |
 |---|---|
-| New Window | ⌘N |
+| New Window | *unassigned* |
 | New Tab | ⌘T |
-| New Folder | ⇧⌘N |
-| New File | *unassigned* |
+| New Folder | ⌘N |
+| New File | ⌥⌘N |
 | Close Tab | ⌘W |
 | Close Window | ⇧⌘W |
 | Show Previous Tab | ⌥⌘← |
