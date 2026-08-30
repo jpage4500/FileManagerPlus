@@ -124,6 +124,13 @@ and last item** — as ⌥↑ and ⌥↓ do. ↑ and ↓ step one as well, there
 Any application on this machine can be given a shortcut of its own, which opens the selected files
 with it. They're listed under **Open With** in Settings ▸ Keyboard, and none is assigned by default.
 
+## Quick Look
+
+While the preview is open, **↑** and **↓** step through the folder without leaving it, and Return
+opens the file. In icon and gallery view **←** and **→** step as well; in list view they stay with
+the outline, expanding and collapsing folders, and the preview follows whatever ends up selected.
+Like Escape, none of these is bindable.
+
 ## The mini player
 
 While a Cast device or a Sonos speaker is showing, **↑** and **↓** turn its volume up and down, one
