@@ -137,6 +137,9 @@ opens the file. In icon and gallery view **←** and **→** step as well; in li
 the outline, expanding and collapsing folders, and the preview follows whatever ends up selected.
 Like Escape, none of these is bindable.
 
+**⌘C** copies a previewed picture, ready to paste into a document rather than as a file. On a text
+file, **⌘A** takes the whole of it and **⌘C** copies that; dragging over the text picks out less.
+
 ## The mini player
 
 While a Cast device or a Sonos speaker is showing, **↑** and **↓** turn its volume up and down, one
