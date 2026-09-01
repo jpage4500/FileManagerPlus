@@ -23,6 +23,7 @@ Shortcuts are written for macOS. On Windows and Linux, **⌘ is Ctrl**; ⌥ is A
 | Open in Terminal | ⌥⌘T |
 | Extract | *unassigned* |
 | Delete Application… | *unassigned* |
+| Empty Trash… | ⇧⌘⌫ |
 | Settings | ⌘, |
 | Quit | ⌘Q |
 
@@ -41,14 +42,18 @@ Shortcuts are written for macOS. On Windows and Linux, **⌘ is Ctrl**; ⌥ is A
 | Rename | ⌘R |
 | Duplicate | ⌘D |
 | Move to Trash | ⌘⌫ |
-| Delete Immediately… | ⌥⌘⌫ |
+| Delete | ⌥⌘⌫ |
 
 *Rename edits one selected file in place; with two or more selected it opens the batch rename panel,
 where stacked actions — find and replace, a numbering sequence, added text, case changes — are
 previewed against every name before anything is written.*
 
 *Undo puts back the last move, batch rename or Move to Trash, all of it or none of it. A permanent
-delete offers none — there is nothing to put back.*
+delete offers none — there is nothing to put back. Delete and Empty Trash both ask
+before they do anything, for the same reason.*
+
+*Holding ⌥ over a right-click menu turns Move to Trash into Delete, and back again when you let
+go.*
 
 ## View
 
@@ -117,7 +122,8 @@ the selection along the row. Home and End work wherever a keyboard has them.*
 elsewhere: ← and → step one, **⇧← and ⇧→ extend the selection**, and **⌥← and ⌥→ jump to the first
 and last item** — as ⌥↑ and ⌥↓ do. ↑ and ↓ step one as well, there being no second axis.*
 
-*Type any letter to jump to the next item starting with it.*
+*Type any letter to jump to the next item starting with it. A space keeps typing the name — Quick
+Look takes it back once you stop, or as soon as you move the selection another way.*
 
 ## Open With
 
