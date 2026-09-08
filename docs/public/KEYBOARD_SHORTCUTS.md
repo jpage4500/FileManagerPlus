@@ -44,9 +44,10 @@ Shortcuts are written for macOS. On Windows and Linux, **⌘ is Ctrl**; ⌥ is A
 | Move to Trash | ⌘⌫ |
 | Delete | ⌥⌘⌫ |
 
-*Rename edits one selected file in place; with two or more selected it opens the batch rename panel,
-where stacked actions — find and replace, a numbering sequence, added text, case changes — are
-previewed against every name before anything is written.*
+*Rename edits one selected file in place, in list and icon view. With two or more selected — or a
+single file in gallery view, which shows no name to edit — it opens the batch rename panel, where
+stacked actions — find and replace, a numbering sequence, added text, case changes — are previewed
+against every name before anything is written.*
 
 *Undo puts back the last move, batch rename or Move to Trash, all of it or none of it. A permanent
 delete offers none — there is nothing to put back. Delete and Empty Trash both ask
