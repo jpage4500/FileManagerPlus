@@ -97,6 +97,16 @@ same keys. ⌘= on its own and the numeric keypad's + work too.*
 application on the machine, and every command in the menus — without going to find which menu it's
 under. It lists nothing until you type.*
 
+## Help
+
+| Action | Shortcut |
+|---|---|
+| File Manager+ Help | *unassigned* |
+
+*On macOS the Help menu also carries a **Search** field, which macOS puts there itself. Type into it
+to find any item in any of the menus above without remembering which one it's under — it shows you
+where each match lives and runs it.*
+
 ## File list
 
 These belong to the file list, the icon grid and the gallery filmstrip while one of them has focus.
