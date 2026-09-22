@@ -50,7 +50,7 @@ Every file manager copies, renames and deletes files. Most of them have these st
 | **Conflicts**                  | Replace / Keep Both / Skip / Stop with "apply to all", both files shown side by side, and every question asked before anything is written                 |
 | **Go to Folder**               | ⇧⌘G — type a path, Tab completes it, matching subfolders listed as you go                                                                                 |
 | **Filter, sort, hidden files** | ⌘F narrows the folder ("114 of 290 items"), sorting keeps folders on top and sorts numbers naturally (`file2` before `file10`), ⇧⌘. shows the hidden ones |
-| **Breadcrumb bar**             | Navigate quickly through the folder hierarchy by clicking on the folder names                                                                              |
+| **Breadcrumb bar**             | Navigate quickly through the folder hierarchy by clicking on the folder names                                                                             |
 
 ## Advanced Features
 
@@ -83,14 +83,15 @@ Not every File Manager I've tested has these features - but they're what I consi
 
 You don't have to be a developer to use these - but as a developer these are the features I wanted specifically. Most File Managers I've used don't have these features
 
-|                              |                                                                                                                 |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Browse **Android Devices**   | Connect an Android phone and it shows up in the sidebar. Browse/Manage/Preview files. View device battery level |
-| **Install an app**           | Drag an `.apk` (or `.xapk, .apkm, .apks`) to the device and it installs                                         |
-| **Browse archives**          | Double-click a `.zip` — or supported archive format — and its contents *are* browsable like any other folder    |
-| **Activity / History**       | View a record of all file operations, including copy, move, delete, install, extract and undo                   |
-| Control **Cast Devices**     | View any Cast enabled devices on your network - see what's playing and control playback/volume                  |
-| **Git Project Icons** | Show app icons for Git projects (logo.png)                                                                      |
+|                            |                                                                                                                 |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------|
+| Browse **Android Devices** | Connect an Android phone and it shows up in the sidebar. Browse/Manage/Preview files. View device battery level |
+| **Install an app**         | Drag an `.apk` (or `.xapk, .apkm, .apks`) to the device and it installs                                         |
+| **Browse archives**        | Double-click a `.zip` — or supported archive format — and its contents *are* browsable like any other folder    |
+| **Activity / History**     | View a record of all file operations, including copy, move, delete, install, extract and undo                   |
+| Control **Cast Devices**   | View any Cast enabled devices on your network - see what's playing and control playback/volume                  |
+| **Git Support**            | Show app icons and file status for Git projects                                                                 |
+| **Default File Viewer**    | Replace Finder (Mac) to handle 'open in Finder' from other apps                                                 |
 
 ---
 
@@ -105,7 +106,7 @@ You don't have to be a developer to use these - but as a developer these are the
 | **Applications**                                       | **Preview**                                       |
 | ![Applications](resources/screenshot-applications.png) | ![Preview](resources/screenshot-preview.png)      |
 | **Info**                                               | **Quick View**                                    |
-| ![Quick View](resources/screenshot-info.png)           | ![Quick View](resources/screenshot-quickview.png)    |
+| ![Quick View](resources/screenshot-info.png)           | ![Quick View](resources/screenshot-quickview.png) |
 
 ---
 
@@ -118,17 +119,14 @@ a file browser, and a license unlocks changing files again (copy, move, rename, 
 
 [**Buy a license — $14.95**](https://buy.polar.sh/polar_cl_FVmqDr8khgY1sATlhLRGVjOLIQZEP3K6dUpIU1AtPIk)
 
-One license covers **3 computers** you own. Your key arrives by email and goes into
-**Settings ▸ About ▸ License**. Sold by Joe Page Software; payment is handled by
-[Polar](https://polar.sh) as merchant of record. Refunds within 30 days, no reason needed — see
-**[Store Policies](POLICIES.md)**.
+One license covers **3 computers** you own. Your key arrives by email and goes into **Settings ▸ About ▸ License**. Sold by Joe Page Software; payment is handled by
+[Polar](https://polar.sh) as merchant of record. Refunds within 30 days, no reason needed — see **[Store Policies](POLICIES.md)**.
 
 ---
 
 ## Install
 
-Install it from a terminal in one line, or grab the build for your platform from the
-**[latest release](https://github.com/jpage4500/FileManagerPlus/releases/latest)**. Either way the
+Install it from a terminal in one line, or grab the build for your platform from the **[latest release](https://github.com/jpage4500/FileManagerPlus/releases/latest)**. Either way the
 app auto-updates itself when a new version comes out.
 
 **macOS and Linux**
@@ -162,8 +160,7 @@ confirm. macOS remembers the choice and normal double-clicks work from then on.
 <details>
 <summary><b>Windows — manual</b></summary>
 
-Download the Windows build and run it. SmartScreen may warn about an unrecognized publisher — choose
-**More info → Run anyway**.
+Download the Windows build and run it. SmartScreen may warn about an unrecognized publisher — choose **More info → Run anyway**.
 
 </details>
 
