@@ -28,12 +28,6 @@ I wanted a File Manager that I will actually use every day. It needs to be **FAS
 
 ---
 
-## About Me
-
-I've been a developer for 20+ years. I am passionate about the products I work on and work to make them the best in class any way that I can. AI has undoubtedly changed the programming landscape forever, and I'm embracing it head-on. I know what I want in an app and AI allows me to get there 1000 times faster than doing it myself. While that also means anyone can create an app from scratch today, I know what features should look like, how to provide excellent support, and how to keep the code from getting unmanageable. I will NEVER release any AI SLOP. Software can work differently for different people so maintaining it is critical for making it last.
-
----
-
 ## Standard Features
 
 Every file manager copies, renames and deletes files. Most of them have these standard features too but here they are anyway:
@@ -112,97 +106,14 @@ You don't have to be a developer to use these - but as a developer these are the
 
 ## Pricing
 
-**$14.95 once — and every future update is included.** No subscription, no renewal.
-
-Try it free for **14 days**, all features, no payment details needed. After that it keeps working as
-a file browser, and a license unlocks changing files again (copy, move, rename, delete, install).
-
-[**Buy a license — $14.95**](https://buy.polar.sh/polar_cl_FVmqDr8khgY1sATlhLRGVjOLIQZEP3K6dUpIU1AtPIk)
-
-One license covers **3 computers** you own. Your key arrives by email and goes into **Settings ▸ About ▸ License**. Sold by Joe Page Software; payment is handled by
-[Polar](https://polar.sh) as merchant of record. Refunds within 30 days, no reason needed — see **[Store Policies](POLICIES.md)**.
+The app is 100% free - no ads! There's a small "UNREGISTERED" tag displayed on the titlebar which can be removed for a 1-time [$5](https://buy.polar.sh/polar_cl_FVmqDr8khgY1sATlhLRGVjOLIQZEP3K6dUpIU1AtPIk) or more
 
 ---
 
 ## Install
 
-Install it from a terminal in one line, or grab the build for your platform from the **[latest release](https://github.com/jpage4500/FileManagerPlus/releases/latest)**. Either way the
-app auto-updates itself when a new version comes out.
-
-**macOS and Linux**
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/jpage4500/FileManagerPlus/main/scripts/public/install.sh | bash
-```
-
-**Windows** — in PowerShell
-
-```powershell
-irm https://raw.githubusercontent.com/jpage4500/FileManagerPlus/main/scripts/public/install.ps1 | iex
-```
-
-[`install.sh`](scripts/public/install.sh) and [`install.ps1`](scripts/public/install.ps1) do the same thing: pick
-the build matching your OS and processor out of the latest release, download it, and run the
-installer. Read either one before you pipe it to a shell — that's what the links are for. Pass
-`--version 1.0.43` for one particular release, or `--dry-run` to download without installing.
-
-<details>
-<summary><b>macOS — manual</b></summary>
-
-Download the macOS build for your chip (Apple Silicon or Intel), open it, and drag **File Manager+**
-to Applications.
-
-The app isn't notarized yet, so the first launch needs a nudge: **right-click the app → Open**, then
-confirm. macOS remembers the choice and normal double-clicks work from then on.
-
-</details>
-
-<details>
-<summary><b>Windows — manual</b></summary>
-
-Download the Windows build and run it. SmartScreen may warn about an unrecognized publisher — choose **More info → Run anyway**.
-
-</details>
-
-<details>
-<summary><b>Linux — manual</b></summary>
-
-Download the Linux build for your architecture (x64 or arm64) and run the launcher. Depending on
-your distribution you may need to mark it executable first:
-
-```bash
-chmod +x <downloaded-file>
-```
-
-</details>
-
-
-<details>
-<summary><b>Corporate network — "app.xml file could not be found"</b></summary>
-
-On a network that inspects TLS (Netskope, Zscaler, Palo Alto, a corporate VPN) the installer stops
-with:
-
-```
-Cannot load app info because the app.xml file could not be found
-```
-
-Nothing is missing — it's certificates. The installer runs on a private JRE under `~/.jdeploy` with
-its own truststore, which doesn't hold your company's root CA, so its HTTPS call to `jdeploy.com`
-fails. macOS itself trusts that root, which is why your browser and `curl` are fine.
-
-On macOS, [`scripts/public/install-corporate.sh`](scripts/public/install-corporate.sh) downloads the latest
-release, installs it, and fixes the certificates in one command:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/jpage4500/FileManagerPlus/main/scripts/public/install-corporate.sh | bash
-```
-
-It only imports a root macOS already trusts, and does nothing at all if it finds no interception.
-Once installed, the app auto-updates on launch as usual. If a later update pulls down a newer JRE
-and update checks start warning again, re-run it with `--fix-only`.
-
-</details>
+Download the version for your platform from the **[latest release](https://github.com/jpage4500/FileManagerPlus/releases/latest)**. 
+The app auto-updates itself when a new version comes out.
 
 Settings, logs, thumbnails and per-folder view preferences all live in `~/.file-manager+/` — delete
 that folder to reset the app to a clean slate.
@@ -215,6 +126,12 @@ Shortcuts use ⌘ on macOS and **Ctrl** on Windows/Linux, and every one of them 
 Settings ▸ Keyboard.
 
 **→ [The full list](docs/public/KEYBOARD_SHORTCUTS.md)** — every action, grouped by menu.
+
+---
+
+## About Me
+
+I've been a developer for 20+ years. I am passionate about the products I work on and work to make them the best in class any way that I can. AI has undoubtedly changed the programming landscape forever, and I'm embracing it head-on. I know what I want in an app and AI allows me to get there 1000 times faster than doing it myself. While that also means anyone can create an app from scratch today, I know what features should look like, how to provide excellent support, and how to keep the code from getting unmanageable. I will NEVER release any AI SLOP. Software can work differently for different people so maintaining it is critical for making it last.
 
 ---
 
