@@ -117,8 +117,8 @@ These belong to the file list, the icon grid and the gallery filmstrip while one
 | Move Down | ↓ |
 | First Item | ⌥↑ |
 | Last Item | ⌥↓ |
-| Page Up | Page Up |
-| Page Down | Page Down |
+| Page Up | ⌥⌘↑ |
+| Page Down | ⌥⌘↓ |
 | Expand Folder | → |
 | Collapse Folder | ← |
 | Open Selection | Return |
@@ -127,7 +127,8 @@ These belong to the file list, the icon grid and the gallery filmstrip while one
 
 *Hold ⇧ with any of the six movement keys to extend the selection instead of replacing it. In icon
 view, where there is no outline to disclose, ← and → step one tile sideways and ⇧← / ⇧→ extend
-the selection along the row. Home and End work wherever a keyboard has them.*
+the selection along the row. Home, End, Page Up and Page Down (fn+arrows on a laptop) work wherever
+a keyboard has them — on Windows and Linux, Page Up and Page Down are the default in place of ⌥⌘↑ / ⌥⌘↓.*
 
 *In gallery view the filmstrip runs sideways, so the sideways keys do what the vertical ones do
 elsewhere: ← and → step one, **⇧← and ⇧→ extend the selection**, and **⌥← and ⌥→ jump to the first
